@@ -4,5 +4,6 @@ class User(
 ) {
     fun greeting() {
         println("hello world my name is $age $name")
+        Iterable
     }
 }
