@@ -27,7 +27,7 @@ fun eval(e: Expr): Int = when (e) {
     // 이것이 smart cast
     // smart cast 는 타입 검사한 다음 값이 변할 수 없는 경우에만 동작, 그래서 var 은 안됨
     is Num ->
-        e.value // is 는 instanceOf 와 같다
+        e.value // smartCast 에 의해서 e 는 Num 인스턴스가 됨 is 는 instanceOf 와 같다
     is Sum -> { // when 에서 블록을 사용할 수도 있다
         println("---sum works---")
         eval(e.left) + eval(e.right) // 반환하려는 값을 제일 마지막에 두면 된다 (이것은 블록에 대한 규칙)
