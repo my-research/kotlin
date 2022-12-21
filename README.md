@@ -28,13 +28,13 @@ infix method call([중위호출](#)),
 destructuring declaration([분해 구조 선언](#)),
 local function([로컬 함수](#)),
 
-### Object Oriented Programming
+### object oriented programming
 
 interface([인터페이스](#)),
 modifier([제어자](#)),
 accessor([접근자](#)),
 
-### References
+# References
 
 - [kotlin docs](https://kotlinlang.org/docs/basic-syntax.html)
 - [hyperskill](https://hyperskill.org/tracks/18)
