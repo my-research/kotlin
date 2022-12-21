@@ -1,8 +1,8 @@
 # Kotlin Language Playground
 
-- basics
-- functions
-- object-oriented
+- [basics](https://github.com/my-research/kotlin-lang/tree/master/basic)
+- [functions](https://github.com/my-research/kotlin-lang/tree/master/functions)
+- [object-oriented-programming](https://github.com/my-research/kotlin-lang/tree/master/object-oriented-programming)
 - lambdas
 - type
 
