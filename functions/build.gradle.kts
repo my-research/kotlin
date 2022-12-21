@@ -13,6 +13,7 @@ repositories {
 }
 
 dependencies {
+    testImplementation("io.kotest:kotest-assertions-core:5.5.4")
     testImplementation(kotlin("test"))
 }
 
