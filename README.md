@@ -8,6 +8,10 @@
 
 # keywords
 
+kotlin 의 다양한 키워드에 대해서 설명합니다.
+
+링크를 통해서 코드를 확인할 수 있습니다
+
 ### basic language
 
 variable and value([변수와 상수](#)),
