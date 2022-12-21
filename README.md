@@ -1,4 +1,4 @@
-# Kotlin Language Playground
+# Kotlin Language Docs, 나만의 코틀린 문서
 
 - [basics](https://github.com/my-research/kotlin-lang/tree/master/basic)
 - [functions](https://github.com/my-research/kotlin-lang/tree/master/functions)
