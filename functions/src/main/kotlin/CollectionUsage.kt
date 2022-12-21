@@ -1,4 +1,5 @@
 fun main() {
+
     collection()
     println(max(listOf(1, 2, 3)))
     println(lastOne(setOf("Java", "Kotlin")))
