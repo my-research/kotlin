@@ -1,8 +1,8 @@
 # Kotlin Language Docs, 나만의 코틀린 문서
 
-- [basics](https://github.com/my-research/kotlin-lang/tree/master/basic)
-- [functions](https://github.com/my-research/kotlin-lang/tree/master/functions)
-- [object-oriented-programming](https://github.com/my-research/kotlin-lang/tree/master/object-oriented-programming)
+- [basics](https://github.com/my-research/kotlin/tree/master/basic)
+- [functions](https://github.com/my-research/kotlin/tree/master/functions)
+- [object-oriented-programming](https://github.com/my-research/kotlin/tree/master/object-oriented-programming)
 - lambdas
 - type
 
@@ -29,6 +29,10 @@ destructuring declaration([분해 구조 선언](#)),
 local function([로컬 함수](#)),
 
 ### Object Oriented Programming
+
+interface([인터페이스](#)),
+modifier([제어자](#)),
+accessor([접근자](#)),
 
 ### References
 

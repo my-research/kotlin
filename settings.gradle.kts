@@ -1,4 +1,4 @@
-rootProject.name = "kotlin-lang"
+rootProject.name = "kotlin"
 
 include("basic")
 include("functions")
