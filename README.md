@@ -35,3 +35,4 @@ local function([로컬 함수](#)),
 - [kotlin docs](https://kotlinlang.org/docs/basic-syntax.html)
 - [hyperskill](https://hyperskill.org/tracks/18)
 - [Kotlin in Action](http://www.yes24.com/Product/Goods/55148593)
+- [Best Practices for Unit Testing in Kotlin](https://resources.jetbrains.com/storage/products/kotlinconf2018/slides/4_Best%20Practices%20for%20Unit%20Testing%20in%20Kotlin.pdf)
