@@ -39,8 +39,10 @@ sealed class([봉인된 클래스, 실드 클래스](#)),
 primary constructor & initializer block([주 생성자와 초기화 블록](#)),
 secondary constructor([부 생성자](#)),
 abstract property([추상 프로퍼티](#)),
-getter & setter([게터와 세터](#)),
+accessors-getter & setter([접근자-게터와 세터](#)),
 backing field([뒷받침 필드](#)),
+data class([데이터 클래스](#)),
+
 
 # References
 

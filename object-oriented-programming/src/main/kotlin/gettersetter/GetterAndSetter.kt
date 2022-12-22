@@ -7,7 +7,6 @@ package gettersetter
 fun main() {
     val student = Student()
 
-
     student.name = "hello world"
     println(student.name)
 }
@@ -24,6 +23,18 @@ class Student {
             return field // <- backing field
         }
         set(value) {
+            println("setter works in student class")
+            field = value
+        }
+}
+
+class Teacher {
+    private var name: String = ""
+        get() {
+            println("getter works in student class")
+            return field // <- backing field
+        }
+        private set(value) { // 접근자에도 가시성 수준을 변경할 수 있다
             println("setter works in student class")
             field = value
         }
