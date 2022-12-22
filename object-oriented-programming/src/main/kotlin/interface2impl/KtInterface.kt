@@ -1,4 +1,4 @@
-package `interface`
+package interface2impl
 
 /**
  * 기본 인터페이스와 구현
@@ -25,7 +25,7 @@ interface Focusable {
     fun describe()
 }
 
-class Button: Clickable, Focusable { // kotlin 은 implements 나 extends 키워드 없이 : 만 붙인다
+class Button : Clickable, Focusable { // kotlin 은 implements 나 extends 키워드 없이 : 만 붙인다
     // kotlin 에서는 override 키워드를 명시하지 않으면 안된다
     override fun click() {
         println("clicked!")

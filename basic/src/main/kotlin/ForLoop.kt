@@ -1,3 +1,7 @@
+/**
+ * for 반복문
+ */
+
 fun main() {
 
     printIntRangeAsc(1..10)

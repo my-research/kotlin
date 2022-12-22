@@ -14,7 +14,8 @@ kotlin 의 다양한 키워드에 대해서 설명합니다.
 
 ### basic language
 
-variable and value([변수와 상수](#)),
+variable & value([변수와 상수](#)),
+top level declaration([최상위 선언](#)),
 for loop([for 반복](#)),
 variable shadowing([변수 쉐도잉](#)),
 smart cast([스마트캐스트](#)),
@@ -30,9 +31,16 @@ local function([로컬 함수](#)),
 
 ### object oriented programming
 
-interface([인터페이스](#)),
+interface2impl([인터페이스](#)),
 modifier([제어자](#)),
-accessor([접근자](#)),
+visibility modifier([접근자, 가시성 제어자](#)),
+inner class & nested class([내부 클래스와 중첩 클래스](#)),
+sealed class([봉인된 클래스, 실드 클래스](#)),
+primary constructor & initializer block([주 생성자와 초기화 블록](#)),
+secondary constructor([부 생성자](#)),
+abstract property([추상 프로퍼티](#)),
+getter & setter([게터와 세터](#)),
+backing field([뒷받침 필드](#)),
 
 # References
 

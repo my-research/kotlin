@@ -1,5 +1,10 @@
 import java.lang.IllegalArgumentException
 
+
+/**
+ * SmartCast: 변하지 않는 상수에 대해서 가능한 유일 타입에 대해 자동 형변환
+ */
+
 fun main() {
     // ((1 + 2) + 4)
     val sum = Sum(Sum(Num(1), Num(2)), Num(4))

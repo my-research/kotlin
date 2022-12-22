@@ -1,3 +1,7 @@
+/**
+ * in 연산을 포함한 반복
+ */
+
 fun main() {
     println(recognize('c'))
     // 이건 "java" <= "kotlin" && "kotlin <= scala 와 같음

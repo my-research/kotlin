@@ -1,3 +1,7 @@
+/**
+ * Enum 과 When
+ */
+
 fun main() {
     println(light(Color.RED))
     println(light(Color.GREEN))

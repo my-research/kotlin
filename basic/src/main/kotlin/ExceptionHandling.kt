@@ -1,3 +1,7 @@
+/**
+ * 코틀린의 예외처리
+ */
+
 fun main() {
     println(catching())
 }
