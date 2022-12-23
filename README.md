@@ -42,6 +42,10 @@ abstract property([추상 프로퍼티](#)),
 accessors-getter & setter([접근자-게터와 세터](#)),
 backing field([뒷받침 필드](#)),
 data class([데이터 클래스](#)),
+immutable & delegating([불변성과 위임, copy() & by()](#)),
+object keyword([object 키워드](#)),
+companion object([동반 객체](#)),
+object expression & anonymous object([객체 식과 무명 객체](#)),
 
 
 # References
