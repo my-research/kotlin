@@ -3,7 +3,7 @@
 - [basics](https://github.com/my-research/kotlin/tree/master/basic)
 - [functions](https://github.com/my-research/kotlin/tree/master/functions)
 - [object-oriented-programming](https://github.com/my-research/kotlin/tree/master/object-oriented-programming)
-- lambdas
+- [lambdas](https://github.com/my-research/kotlin/tree/master/lambdas)
 - type
 
 # keywords
@@ -47,6 +47,7 @@ object keyword([object 키워드](#)),
 companion object([동반 객체](#)),
 object expression & anonymous object([객체 식과 무명 객체](#)),
 
+### Lambdas
 
 # References
 
