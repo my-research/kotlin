@@ -49,6 +49,9 @@ object expression & anonymous object([객체 식과 무명 객체](#)),
 
 ### Lambdas
 
+lambda usage & it keyword([람다식 사용법과 it](#)),
+run([run 키워드](#)),
+
 # References
 
 - [kotlin docs](https://kotlinlang.org/docs/basic-syntax.html)
