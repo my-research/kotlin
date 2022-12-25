@@ -51,6 +51,9 @@ object expression & anonymous object([객체 식과 무명 객체](#)),
 
 lambda usage & it keyword([람다식 사용법과 it](#)),
 run([run 키워드](#)),
+closure([클로저](#)),
+captured variable([람다가 포획한 변수](#)),
+member references([멤버 참조](#)),
 
 # References
 
