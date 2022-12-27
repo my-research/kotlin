@@ -33,6 +33,7 @@ class User private constructor(
     val address: String,
 ) {
     companion object Factory {
+        // only single instance
         fun newSubscribingUser(email: String): User {
             val s = email.split("@")
             return User(name = s[0], address = s[1])
