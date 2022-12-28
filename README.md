@@ -49,13 +49,15 @@ object expression & anonymous object([객체 식과 무명 객체](#)),
 
 ### Lambdas
 
-lambda usage & it keyword([람다식 사용법과 it](#)),
+lambda usage & it ([람다식 사용법과 it](#)),
 higher-order function([고차 함수](#)),
 run([run 키워드](#)),
 closure([클로저](#)),
 captured variable([람다가 포획한 변수](#)),
 member references([멤버 참조](#)),
-collection functional api([컬렉션 함수형 API](#)),
+collection functional api([컬렉션 함수형 API (filter, map, all, any, find, count, groupBy, flatMap, flatten)](#)),
+iterable collection, sequence([Sequence](#)),
+eager evaluation vs lazy evaluation([eager evaluation vs lazy evaluation](#)),
 
 # References
 
