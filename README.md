@@ -67,7 +67,6 @@ safe call operation & elvis operation([안전한 호출 연산자 '?.' 와 엘�
 safe cast operation([안전한 캐스트: 'as?'](#)),
 not null assertion([널 아님 단언: !!](#)),
 let([let 함수](#)),
-lateinit([지연 초기화](#))
 
 # References
 
