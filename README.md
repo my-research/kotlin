@@ -4,7 +4,7 @@
 - [functions](https://github.com/my-research/kotlin/tree/master/functions)
 - [object-oriented-programming](https://github.com/my-research/kotlin/tree/master/object-oriented-programming)
 - [lambdas](https://github.com/my-research/kotlin/tree/master/lambdas)
-- type
+- [type-system](https://github.com/my-research/kotlin/tree/master/type-system)
 
 # keywords
 
@@ -58,6 +58,16 @@ member references([멤버 참조](#)),
 collection functional api([컬렉션 함수형 API (filter, map, all, any, find, count, groupBy, flatMap, flatten)](#)),
 iterable collection, sequence([Sequence](#)),
 eager evaluation vs lazy evaluation([eager evaluation vs lazy evaluation](#)),
+intermediate operation vs terminal operation([중간 연산과 최종 연산](#)),
+
+### type-system
+
+nullable type([널이 될 수 있는 타입](#)),
+safe call operation & elvis operation([안전한 호출 연산자 '?.' 와 엘비스 연산자 '?:'](#)),
+safe cast operation([안전한 캐스트: 'as?'](#)),
+not null assertion([널 아님 단언: !!](#)),
+let([let 함수](#)),
+lateinit([지연 초기화](#))
 
 # References
 

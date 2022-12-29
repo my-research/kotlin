@@ -1,20 +1,19 @@
 package sequence
 
 /**
+ * @see Intermediate2Terminal.kt, 중간 연산과 최종 연산의 개념에서 사용됨
+ *
  * eager evaluation:
  *      -> collection
  *      -> 모든 연산에 대해서 즉시 수행함, 즉 모두 최종 연산
+ *      -> 연산이 컬렉션 단위로 수행됨
  *
  * lazy evaluation:
  *      -> collection
  *      -> 지금 하지 않아도 되는 연산에 대해서 뒤로 미룸, 즉 모두가 중간 (intermediate 연산)
  *      -> 최종 연산 (terminal operation) 을 만나면 미뤘던 연산을 실제로 수행함
- *
- * 이게 가능한 이유는 연산 실행 시점이 달라서 가능함
- *      -> 중간 연산 (intermediate operation)
- *      -> 최종 연산 (terminal operation)s
- *
- *
+ *      -> 연산이 시퀀스(지금은 컬렉션이라고 이해해도 됨)의 원소 하나 하나에 대해서 수행됨
+ *      -> 그래서 일정 조건에 만족하면 이후 원소들은 연산을 하지 않을 수도 있음
  */
 
 fun main() {

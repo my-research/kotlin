@@ -13,14 +13,18 @@ package sequence
  *
  * sequence 연산은 원소를 차례로 이터레이션해야 한다면 시퀀스를 직접 사용해도 무방
  *      -> 하지만 원소에 직접 접근하는 등의 다른 API 를 사용해야 한다면 Collection 을 사용해야함
+ *
+ * sequence 를 만드는 방법
+ * 1. collection 에 대해서 asSequence 로 변환하기
+ * 2. generateSequence 를 통해서 만들기
  */
 
 fun main() {
     val collection = listOf(1, 2, 3, 4, 5)
-    val sequence = collection.asSequence() // asSequence() 를 통해서 collection 을 sequence 로 만듦
+    val convertedSequence = collection.asSequence() // asSequence() 를 통해서 collection 을 sequence 로 만듦
+    println(convertedSequence.toList()) // 최종 연산 (terminal operation) 으로 collection 으로 만들어줘야 함
 
-    println(sequence.toList()) // 최종 연산 (terminal operation) 으로 collection 으로 만들어줘야 함
-
-    val filtered = sequence.filter { it > 3 } // collection 연산이 적용 가능
+    val generatedSequence = generateSequence(0) {it + 1} // sequence 를 만드든 두번째 방법
+    val filtered = generatedSequence.filter { it > 3 } // collection 연산이 적용 가능
     println(filtered)
 }
