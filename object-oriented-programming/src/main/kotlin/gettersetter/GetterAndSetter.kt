@@ -1,7 +1,14 @@
 package gettersetter
 
 /**
- * getter & setter: 프로퍼티의 값을 조회하거나 변경
+ * kotlin 의 property
+ *
+ * getter & setter: 프로퍼티의 값을 조회하거나 변경, getter 를 호출하지 않고 프로퍼티를 호출함
+ *
+ * 자바의 프로퍼티: 접근자 + 필드
+ * 코틀린의 프로퍼티: 값을 저장하는 비공개 필드 (backing field) + getter 로 이루어진 디폴트 접근자 구현
+ *      -> val: 읽기 전용 프로퍼티 (getter 만 생성)
+ *      -> var: 읽기/쓰기 프로퍼티 (getter/setter 생성)
  */
 
 fun main() {
