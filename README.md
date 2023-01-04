@@ -68,6 +68,8 @@ safe cast operation([안전한 캐스트: 'as?'](#)),
 not null assertion([널 아님 단언: !!](#)),
 let([let 함수](#)),
 lateinit([lateinit, 지연 초기화](#)),
+nullable with java & platform type([nullable 과 자바 & 플랫폼 타입](#)),
+primitive type([코틀린의 원시 타입](#)),
 
 # References
 
