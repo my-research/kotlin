@@ -6,18 +6,19 @@
   - [object-oriented-programming](https://github.com/my-research/kotlin/tree/master/object-oriented-programming)
   - [lambdas](https://github.com/my-research/kotlin/tree/master/lambdas)
   - [type-system](https://github.com/my-research/kotlin/tree/master/type-system)
-- **advanced**
-  - [conventions](#)
+- **advanced usage**
+  - [overloading](#)
 - **testing**
   - [test with junit5](#)
 
-# keywords
+# keywords Index
 
-kotlin 의 다양한 키워드에 대해서 설명합니다.
+kotlin 의 다양한 키워드에 대해서 설명합니다. kotlin in action 의 책 구성에 따릅니다
 
 링크를 통해서 코드를 확인할 수 있습니다
 
 - language keywords
+- advanced usage keywords
 - test keywords
 
 ## Language keywords
@@ -83,14 +84,17 @@ primitive type([코틀린의 원시 타입](#)),
 Any Type([최상위 타입, Any](#)),
 Unit Type([코틀린의 void, Unit](#)),
 
-## Advanced
+## Advanced usage keywords
 
-### conventions
+### overloading
 
-arithmetic operator overloading([산술 연산자 오버로딩, + - * /](#)),
-compound operator overloading([복합 대입 연산자 오버로딩, += -=](#)),
-unary operator overloading([단항 연산자 오버로딩, ! -- ++](#)),
-compare operator overloading([비교 연산자 오버로딩, equals compareTo](#)),
+arithmetic operator([산술 연산자 오버로딩, + - * /](#)),
+compound operator([복합 대입 연산자 오버로딩, += -=](#)),
+unary operator([단항 연산자 오버로딩, ! -- ++](#)),
+compare operator([비교 연산자 오버로딩, equals compareTo](#)),
+index operator([인덱스 연산자 오버로딩](#)),
+membership test([멤버십 검사 연산자 오버로딩, in](#)),
+range operator([범위 연산자 오버로딩, rangeTo](#)),
 
 # References
 
