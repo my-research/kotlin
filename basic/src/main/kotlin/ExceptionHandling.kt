@@ -7,8 +7,10 @@ fun main() {
 }
 
 fun catching() = try { // try 도 역시 식이다
-    10
+    println("success")
+    10 // 식의 가장 마지막 라인은 return
 } catch (e: java.lang.UnsupportedOperationException) {
+    println("failed")
     20
 } finally {
     println("----finished----")
