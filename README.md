@@ -8,6 +8,7 @@
   - [type-system](https://github.com/my-research/kotlin/tree/master/type-system)
 - **advanced usage**
   - [overloading](#)
+  - [high-order-function](#)
 - **testing**
   - [test with junit5](#)
 
@@ -95,6 +96,12 @@ compare operator([비교 연산자 오버로딩, equals compareTo](#)),
 index operator([인덱스 연산자 오버로딩](#)),
 membership test([멤버십 검사 연산자 오버로딩, in](#)),
 range operator([범위 연산자 오버로딩, rangeTo](#)),
+range operator([분해 구조 오버로딩, componentN](#)),
+
+### high-order-function
+
+function type([함수 타입](#)),
+function type([고차함수의 사용](#)),
 
 # References
 

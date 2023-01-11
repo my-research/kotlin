@@ -9,7 +9,8 @@ include("lambdas")
 include("type-system")
 
 // advanced
-include("conventions")
+include("overloading")
+include("high-order-function")
 
 // testing
 include("testing-junit")
