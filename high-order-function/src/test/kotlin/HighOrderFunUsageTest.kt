@@ -15,7 +15,6 @@ class HighOrderFunUsageTest {
         val sut = OrderLine(orderItems, ::calculateByDefault) // member 참조
         // OrderLine(orderItems) { calculateByDefault(it) } 와 동일하다
 
-
         val actual = sut.calculateFee()
 
         assertThat(actual).isEqualTo(100_000)
