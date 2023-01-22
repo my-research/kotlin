@@ -6,7 +6,6 @@ import java.lang.IllegalArgumentException
  */
 
 fun main() {
-    // ((1 + 2) + 4)
     val sum = Sum(Sum(Num(1), Num(2)), Num(4))
     print(eval(sum))
 }
