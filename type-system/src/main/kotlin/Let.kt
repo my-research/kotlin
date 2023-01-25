@@ -1,5 +1,3 @@
-import java.lang.IllegalArgumentException
-
 /**
  * let: 수신객체를 전달받은 람다로 넘긴다
  *      -> 수신 객체가 null 이 아닌 경우에만 호출된다
@@ -10,7 +8,7 @@ import java.lang.IllegalArgumentException
 fun main() {
     val email: String? = "ff"
 
-    email?.let {sendEmailTo(it)}
+    email?.let { sendEmailTo(it) }
 }
 
 fun sendEmailTo(email: String) {
