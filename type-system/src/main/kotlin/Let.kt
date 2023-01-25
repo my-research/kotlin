@@ -6,7 +6,7 @@
  * 즉, 널이 아닌 값만 메서드를 호출하게 할 때 유용하다
  */
 fun main() {
-    val email: String? = "ff"
+    val email: String? = "jangwonik@gmail.com"
 
     email?.let { sendEmailTo(it) }
 }

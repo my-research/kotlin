@@ -9,6 +9,7 @@
 - **advanced usage**
   - [overloading](#)
   - [high-order-function](#)
+  - [generics](#)
 - **testing**
   - [test with junit5](#)
 
@@ -102,6 +103,8 @@ range operator([분해 구조 오버로딩, componentN](#)),
 
 function type([함수 타입](#)),
 function type([고차함수의 사용](#)),
+
+### generics
 
 # References
 

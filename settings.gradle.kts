@@ -11,6 +11,7 @@ include("type-system")
 // advanced
 include("overloading")
 include("high-order-function")
+include("generics")
 
 // testing
 include("testing-junit")
