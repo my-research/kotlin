@@ -102,7 +102,9 @@ range operator([분해 구조 오버로딩, componentN](#)),
 ### high-order-function
 
 function type([함수 타입](#)),
-function type([고차함수의 사용](#)),
+high-order-function usage([고차함수의 사용](#)),
+inline function([인라인 함수](#)),
+
 
 ### generics
 
