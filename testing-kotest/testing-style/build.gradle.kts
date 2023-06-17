@@ -13,13 +13,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.0")
-    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.9.0")
-    testImplementation("junit:junit:4.13.2")
-    testImplementation("io.kotest:kotest-assertions-core:5.5.4")
-    testImplementation("org.assertj:assertj-core:3.23.1")
+    testImplementation("io.kotest:kotest-assertions-core:5.5.5")
+    testImplementation("org.assertj:assertj-core:3.24.2")
     testImplementation(kotlin("test"))
-    testImplementation("org.testng:testng:7.1.0")
+    testImplementation("org.testng:testng:7.7.0")
 }
 
 tasks.test {

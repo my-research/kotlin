@@ -15,3 +15,4 @@ include("generics")
 
 // testing
 include("testing-junit")
+include("testing-kotest:testing-style")
