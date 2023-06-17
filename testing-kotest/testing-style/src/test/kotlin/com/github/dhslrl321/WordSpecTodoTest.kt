@@ -1,10 +1,8 @@
 package com.github.dhslrl321
 
-import com.github.dhslrl321.fixture.Todo
-import com.github.dhslrl321.fixture.TodoStatus
+import com.github.dhslrl321.todos.Todo
 import io.kotest.core.spec.style.WordSpec
 import io.kotest.matchers.shouldBe
-import io.kotest.matchers.shouldNotBe
 
 /**
  * WordSpec

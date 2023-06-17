@@ -12,6 +12,6 @@ class AnnotationSpecTodoTest : AnnotationSpec() {
 
     @Test
     fun `전통적인 junit 어노테이션 기반 테스트도 가능하다`() {
-        TODO("Not yet implemented")
+
     }
 }

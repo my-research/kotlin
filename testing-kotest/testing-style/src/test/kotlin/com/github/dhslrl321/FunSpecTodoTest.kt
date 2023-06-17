@@ -1,7 +1,6 @@
 package com.github.dhslrl321
 
-import com.github.dhslrl321.fixture.Todo
-import com.github.dhslrl321.fixture.TodoStatus
+import com.github.dhslrl321.todos.Todo
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
 
@@ -13,7 +12,7 @@ import io.kotest.matchers.shouldBe
  */
 class FunSpecTodoTest : FunSpec({
 
-    test("Todo 객체를 생성하면 상태는") {
+    test("com.github.dhslrl321.todos.Todo 객체를 생성하면 상태는") {
 
         val actual = Todo.newInstance("글쓰기")
 

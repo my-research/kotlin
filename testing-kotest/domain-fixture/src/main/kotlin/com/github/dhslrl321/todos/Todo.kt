@@ -1,5 +1,8 @@
-package com.github.dhslrl321.fixture
+package com.github.dhslrl321.todos
 
+import TodoStatus
+import TransitionCommand
+import com.github.dhslrl321.fixture.genLongId
 import java.time.LocalDateTime
 
 class Todo(

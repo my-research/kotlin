@@ -15,4 +15,5 @@ include("generics")
 
 // testing
 include("testing-junit")
+include("testing-kotest:domain-fixture")
 include("testing-kotest:testing-style")
