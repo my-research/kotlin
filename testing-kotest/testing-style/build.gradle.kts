@@ -13,10 +13,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation("io.kotest:kotest-assertions-core:5.5.5")
-    testImplementation("org.assertj:assertj-core:3.24.2")
-    testImplementation(kotlin("test"))
-    testImplementation("org.testng:testng:7.7.0")
+    testImplementation("io.kotest:kotest-runner-junit5:5.6.2")
 }
 
 tasks.test {
