@@ -1,4 +1,4 @@
-package com.github.dhslrl321
+package com.github.dhslrl321.fixture
 
 import java.time.Instant
 import java.util.UUID

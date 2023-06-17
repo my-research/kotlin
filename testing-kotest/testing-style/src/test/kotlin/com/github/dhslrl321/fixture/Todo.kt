@@ -1,4 +1,4 @@
-package com.github.dhslrl321
+package com.github.dhslrl321.fixture
 
 import java.time.LocalDateTime
 
@@ -6,6 +6,7 @@ class Todo(
     val id: Long,
     val name: String,
     var status: TodoStatus,
+    var updater: String,
     val createdAt: LocalDateTime
 ) {
     companion object Factory {
@@ -14,8 +15,18 @@ class Todo(
                 id = genLongId(),
                 name = name,
                 status = TodoStatus.READY,
+                updater = "",
                 createdAt = LocalDateTime.now()
             )
         }
+    }
+
+    fun transitTo(command: TransitionCommand) {
+        this.status = TodoStatus.TODO
+        this.updater = command.updater
+    }
+
+    fun delete() {
+        this.updater = ""
     }
 }
