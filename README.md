@@ -11,17 +11,18 @@
   - [high-order-function](#)
   - [generics](#)
 - **testing**
+  - [test with kotest](#)
   - [test with junit5](#)
 
 # keywords Index
 
-kotlin 의 다양한 키워드에 대해서 설명합니다. kotlin in action 의 책 구성에 따릅니다
+kotlin 의 다양한 키워드에 대해서 설명합니다.
 
 링크를 통해서 코드를 확인할 수 있습니다
 
 - language keywords
 - advanced usage keywords
-- test keywords
+- kotest - testing framework
 
 ## Language keywords
 
@@ -105,8 +106,11 @@ function type([함수 타입](#)),
 high-order-function usage([고차함수의 사용](#)),
 inline function([인라인 함수](#)),
 
-
 ### generics
+
+## kotest
+
+- test style([kotest 의 다양한 test style](#))
 
 # References
 
