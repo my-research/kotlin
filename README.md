@@ -108,6 +108,8 @@ inline function([인라인 함수](#)),
 
 ### generics
 
+# Testing
+
 ## kotest
 
 - test style([kotest 의 다양한 test style](#))
