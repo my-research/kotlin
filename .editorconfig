@@ -1,0 +1,21 @@
+root = true  # editorconfig 파일의 가장 최상위 임을 표시
+
+[*]
+# 기본 charset을 utf-8로 설정
+charset = utf-8
+
+# 파일의 끝을 개행(\n)으로 끝내도록 설정
+end_of_line = lf
+insert_final_newline = true
+
+# 한 줄에 사용할 수 있는 최대 문자열 길이 설정
+max_line_length = 120
+
+# 문자열 뒤에 따라오는 공백 제거 설정
+trim_trailing_whitespace = true
+
+# 들여쓰기를 space 기준 2개로 설정 (tap = sapce 2)
+indent_style = space
+indent_size = 2
+tab_width = 2
+

@@ -17,3 +17,8 @@ include("generics")
 include("testing-junit")
 include("testing-kotest:domain-fixture")
 include("testing-kotest:testing-style")
+
+// effective kotlin
+include("effective-kotlin")
+include("effective-kotlin:stability")
+include("effective-kotlin:readability")
