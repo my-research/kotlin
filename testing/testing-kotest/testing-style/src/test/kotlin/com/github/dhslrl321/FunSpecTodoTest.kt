@@ -12,7 +12,7 @@ import io.kotest.matchers.shouldBe
  */
 class FunSpecTodoTest : FunSpec({
 
-    test("com.github.dhslrl321.todos.Todo 객체를 생성하면 상태는") {
+    test("Todo 객체를 생성하면 상태는") {
 
         val actual = Todo.newInstance("글쓰기")
 

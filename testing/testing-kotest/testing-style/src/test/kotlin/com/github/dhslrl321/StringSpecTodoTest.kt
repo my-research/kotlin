@@ -10,13 +10,13 @@ import io.kotest.matchers.shouldBe
  * 테스트 코드의 크기를 줄여줌
  */
 class StringSpecTodoTest : StringSpec({
-    "com.github.dhslrl321.todos.Todo 객체를 생성하면 상태는" {
+    "Todo 객체를 생성하면 상태는" {
         val actual = Todo.newInstance("글쓰기")
 
         actual.status shouldBe TodoStatus.READY
     }
 
-    "com.github.dhslrl321.todos.Todo 객체를 생성하면 상태는(disabled)".config(enabled = false) {
+    "Todo 객체를 생성하면 상태는(disabled)".config(enabled = false) {
         val actual = Todo.newInstance("책읽기")
 
         actual.status shouldBe TodoStatus.READY

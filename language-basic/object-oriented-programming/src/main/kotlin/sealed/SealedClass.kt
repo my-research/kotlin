@@ -1,7 +1,5 @@
 package sealed
 
-import java.lang.IllegalArgumentException
-
 /**
  * sealed : 상위 클래스를 상속한 하위 클래스의 추가를 제한할 때 사용
  *

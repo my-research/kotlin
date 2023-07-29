@@ -24,7 +24,7 @@ class DescribeSpecTodoTest : DescribeSpec({
 
             actual.transitTo(command);
 
-            it("상태는 com.github.dhslrl321.todos.Todo 이다") {
+            it("상태는 Todo 이다") {
                 actual.status shouldBe TodoStatus.TODO
             }
 
