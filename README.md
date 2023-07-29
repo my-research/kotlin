@@ -115,9 +115,16 @@ inline function([인라인 함수](#)),
 - test style([kotest 의 다양한 test style](#))
 
 
-## effective kotlin
+# effective kotlin
 
-item01([a](#))
+## 안전성
+
+item1([가변성을 제한하라](#)),
+item2([변수의 스코프를 최소화 하라](#)),
+item3([최대한 플랫폼 타입을 지양하라](#)),
+item4([inferred type 을 리턴하지 말라](#)),
+item5([예외를 사용해 코드에 제한을 걸어라](#)),
+item6([사용자 정의 오류보다 표준 오류를 사용하라](#)),
 
 # References
 
