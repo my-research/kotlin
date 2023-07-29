@@ -14,19 +14,26 @@
   - [test with kotest](#)
   - [test with junit5](#)
 
+# effective kotlin
+
+effective kotlin 에서 소개된 내용을 학습 테스트로 실습합니다
+
+## 안전성
+
+item1([가변성을 제한하라](#)),
+item2([변수의 스코프를 최소화 하라](#)),
+item3([최대한 플랫폼 타입을 지양하라](#)),
+item4([inferred type 을 리턴하지 말라](#)),
+item5([예외를 사용해 코드에 제한을 걸어라](#)),
+item6([사용자 정의 오류보다 표준 오류를 사용하라](#)),
+
 # keywords Index
 
 kotlin 의 다양한 키워드에 대해서 설명합니다.
 
-링크를 통해서 코드를 확인할 수 있습니다
+## language basics
 
-- language keywords
-- advanced usage keywords
-- kotest - testing framework
-
-## Language keywords
-
-### basic language
+### basic
 
 variable & value([변수와 상수](#)),
 top level declaration([최상위 선언](#)),
@@ -113,18 +120,6 @@ inline function([인라인 함수](#)),
 ## kotest
 
 - test style([kotest 의 다양한 test style](#))
-
-
-# effective kotlin
-
-## 안전성
-
-item1([가변성을 제한하라](#)),
-item2([변수의 스코프를 최소화 하라](#)),
-item3([최대한 플랫폼 타입을 지양하라](#)),
-item4([inferred type 을 리턴하지 말라](#)),
-item5([예외를 사용해 코드에 제한을 걸어라](#)),
-item6([사용자 정의 오류보다 표준 오류를 사용하라](#)),
 
 # References
 
