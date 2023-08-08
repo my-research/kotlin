@@ -1,8 +1,12 @@
 # Kotlin Language Docs, 나만의 코틀린 문서
 
+코틀린 관련 지식을 인덱싱하기 위한 repository 입니다
+
+### 목차
+
 - **effective kotlin**
-  - 안전성
-  - 가독성
+  - 안전성, stability
+  - 가독성, readability
 - **language-basic**
   - basics
   - functions
