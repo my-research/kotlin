@@ -33,6 +33,7 @@ item3([최대한 플랫폼 타입을 지양하라](https://github.com/my-researc
 item4([inferred type 을 리턴하지 말라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item04/Main.kt)),
 item5([예외를 사용해 코드에 제한을 걸어라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item05/Main.kt)),
 item6([사용자 정의 오류보다 표준 오류를 사용하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item06/Main.kt)),
+item7([결과 부족이 발생했을 땐 null 과 Failure 를 사용하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item07/Main.kt)),
 
 # keywords Index
 
