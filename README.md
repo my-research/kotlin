@@ -34,6 +34,11 @@ item4([inferred type 을 리턴하지 말라](https://github.com/my-research/kot
 item5([예외를 사용해 코드에 제한을 걸어라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item05/Main.kt)),
 item6([사용자 정의 오류보다 표준 오류를 사용하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item06/Main.kt)),
 item7([결과 부족이 발생했을 땐 null 과 Failure 를 사용하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item07/Main.kt)),
+item8([적절하게 null 을 처리하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item08/Main.kt)),
+
+## 가독성
+
+item11([가독성을 목표로 설계하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/readability/src/test/kotlin/com/github/dhslrl321/item11/Main.kt)),
 
 # keywords Index
 
