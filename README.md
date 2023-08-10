@@ -39,7 +39,7 @@ item8([적절하게 null 을 처리하라](https://github.com/my-research/kotlin
 ## 가독성
 
 item11([가독성을 목표로 설계하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/readability/src/test/kotlin/com/github/dhslrl321/item11/Main.kt)),
-item11([x](https://github.com/my-research/kotlin/blob/master/effective-kotlin/readability/src/test/kotlin/com/github/dhslrl321/item12/Main.kt)),
+item12([x](https://github.com/my-research/kotlin/blob/master/effective-kotlin/readability/src/test/kotlin/com/github/dhslrl321/item12/Main.kt)),
 
 # keywords Index
 
