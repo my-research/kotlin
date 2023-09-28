@@ -45,7 +45,7 @@ item12([x](https://github.com/my-research/kotlin/blob/master/effective-kotlin/re
 
 kotlin 의 다양한 키워드에 대해서 설명합니다.
 
-## language basics
+## kotlin basics
 
 ### basic
 
