@@ -25,7 +25,7 @@
 
 effective kotlin 에서 소개된 내용을 학습 테스트로 실습합니다
 
-## 안전성
+## 안전성, stability
 
 item1([가변성을 제한하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item01/Main.kt)),
 item2([변수의 스코프를 최소화 하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item02/Main.kt)),
@@ -36,7 +36,7 @@ item6([사용자 정의 오류보다 표준 오류를 사용하라](https://gith
 item7([결과 부족이 발생했을 땐 null 과 Failure 를 사용하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item07/Main.kt)),
 item8([적절하게 null 을 처리하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/stability/src/test/kotlin/com/github/dhslrl321/item08/Main.kt)),
 
-## 가독성
+## 가독성, readability
 
 item11([가독성을 목표로 설계하라](https://github.com/my-research/kotlin/blob/master/effective-kotlin/readability/src/test/kotlin/com/github/dhslrl321/item11/Main.kt)),
 item12([x](https://github.com/my-research/kotlin/blob/master/effective-kotlin/readability/src/test/kotlin/com/github/dhslrl321/item12/Main.kt)),
