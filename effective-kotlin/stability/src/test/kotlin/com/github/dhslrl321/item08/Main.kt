@@ -4,6 +4,7 @@ import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.shouldBe
 import java.lang.IllegalArgumentException
+import kotlin.properties.Delegates
 
 /**
  * item 08. 적절하게 null 을 처리하라
@@ -40,4 +41,18 @@ class Main: StringSpec({
   "(공격적 프로그래밍) contract 를 이용해서 오류를 던져라" {
     shouldThrow<IllegalArgumentException> { require(false)  }
   }
+
+  "(!!) assertion 은 제네릭 예외를 던져서 파악이 어렵다" {
+    val a: String? = null
+
+    a!!.length
+  }
+
+  "assertion(!!) 보다는 delegate 나 lateinit 을 사용해라" {
+    // lateinit var a = "" lateinit 은 local variable 에서 못 씀
+    val a: String by Delegates.notNull()
+
+    println(a)
+  }
+
 })
